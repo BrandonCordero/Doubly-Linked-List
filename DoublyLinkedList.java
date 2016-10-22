@@ -82,7 +82,18 @@ public class DoublyLinkedList
     }
     System.out.println("");
   }
-  
+   public boolean deleteNode(String data) {
+    Node current = this.head;
+    while(current != null) {
+      if (current.getNext() != null && current.getNext().getData() == data) {
+        current.setNext(current.getNext().getNext());
+        current.getNext().setPrev(current);
+        return(true);
+      }
+      current = current.getNext();
+    }
+    return(false);
+  }
   
 }
  
