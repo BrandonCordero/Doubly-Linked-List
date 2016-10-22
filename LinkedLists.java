@@ -9,5 +9,7 @@ public class LinkedLists {
     myList.addData("Alec");
     myList.print();
     myList.printReverse();
+    myList.deleteNode("Emily");
+    myList.print();
   }
 }
