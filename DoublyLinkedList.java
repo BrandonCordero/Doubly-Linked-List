@@ -26,6 +26,9 @@ public class DoublyLinkedList
       this.head = newTail;
     this.tail = newTail;
   }
+   public void addData(String newString) {
+    Node newNode = new Node(newString);
+   }
   
 }
  
