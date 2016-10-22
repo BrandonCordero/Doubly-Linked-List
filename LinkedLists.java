@@ -7,6 +7,7 @@ public class LinkedLists {
     myList.addData("Martin");
     myList.addData("Emily");
     myList.addData("Alec");
-    
+    myList.print();
+    myList.printReverse();
   }
 }
