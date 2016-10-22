@@ -33,4 +33,8 @@
   public void setNext(Node newNext) {
     this.next = newNext;
   }
+  //Methods
+   public void print() {
+    System.out.print(data + " " );
+ }
  }
