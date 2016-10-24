@@ -94,7 +94,10 @@ public class DoublyLinkedList
     }
     return(false);
   }
-  
+     public void deleteList() {
+    this.head = null;
+    this.tail = null;
+  }
 }
  
  
