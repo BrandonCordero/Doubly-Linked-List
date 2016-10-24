@@ -14,5 +14,7 @@ public class LinkedLists {
     System.out.println(" Deletes node from list");
      myList.deleteNode("Emily");
     myList.print();
+    System.out.println("List deleted");
+    myList.deleteList();
   }
 }
